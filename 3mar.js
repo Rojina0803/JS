@@ -73,3 +73,25 @@ const message=
 'This is' + 
 ' my message';
 // console.log(message);
+
+// const another=
+// `Hi John,
+
+// Thank you for joining in my mailing list.
+
+// Regards,
+// Mosh
+// `;
+// console.log(another)
+
+const nAme='RIta';
+const another=
+`Hi ${nAme} ${2+3},  
+
+Thank you for joining in my mailing list.
+
+Regards,
+Mosh
+`;
+
+console.log(another)
