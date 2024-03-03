@@ -1,50 +1,50 @@
-// // parseInt("101", 2); // 5
-// // console.log(parseInt);
-// //ARRAY LITERALS
-// const coffees = ["French Roast", "Colombian", "Kona"];
-// console.log(coffees);
+// parseInt("101", 2); // 5
+// console.log(parseInt);
+//ARRAY LITERALS
+const coffees = ["French Roast", "Colombian", "Kona"];
+console.log(coffees);
 
-// // extra comma
+// extra comma
+const fish = ["Lion", , "Angel"];
+console.log(fish);
 // const fish = ["Lion", , "Angel"];
-// console.log(fish);
-// // const fish = ["Lion", , "Angel"];
-// //         console.log(fish[1]);
-// const arr= ["333",,"444",,"555",]
-// console.log(arr)
+//         console.log(fish[1]);
+const arr= ["333",,"444",,"555",]
+console.log(arr)
 
-// const myList = [
-//     "home",
-//     "school",
-//   + "hospital",
-//   ];
-//   console.log(myList)
+const myList = [
+    "home",
+    "school",
+  + "hospital",
+  ];
+  console.log(myList)
   
-//   const myList1 = ["home", /* empty */, "school", /* empty */, ];
-//   console.log(myList1)
-//   Number= -123.4;
-//   console.log(Number)
+  const myList1 = ["home", /* empty */, "school", /* empty */, ];
+  console.log(myList1)
+  Number= -123.4;
+  console.log(Number)
 
-// const sales = "Toyota";
+const sales = "Toyota";
 
-// function carTypes(name) {
-//   return name === "Honda" ? name : `Sorry, we don't sell ${name}.`;
-// } 
-// console.log(carTypes);
+function carTypes(name) {
+  return name === "Honda" ? name : `Sorry, we don't sell ${name}.`;
+} 
+console.log(carTypes);
 
-// const car = { myCar: "Saturn", getCar: carTypes("Honda"), special: sales };
+const car = { myCar: "Saturn", getCar: carTypes("Honda"), special: sales };
 
-// console.log(car.myCar); // Saturn
-// console.log(car.getCar); // Honda
-// console.log(car.special); // Toyota
+console.log(car.myCar); // Saturn
+console.log(car.getCar); // Honda
+console.log(car.special); // Toyota
 
-// function bikeTypes(name) {
-//     return name === "Mercedes" ? name : `Sorry, we don't sell ${name}.`;
-//   } 
-// const bike={ myBike:"Neptune", getBike: bikeTypes("Mercedes")};
-// console.log(bike.myBike);
-// console.log(bike.getBike);
+function bikeTypes(name) {
+    return name === "Mercedes" ? name : `Sorry, we don't sell ${name}.`;
+  } 
+const bike={ myBike:"Neptune", getBike: bikeTypes("Mercedes")};
+console.log(bike.myBike);
+console.log(bike.getBike);
 
-// 
+
 const userone={
     email:'ryuu@gmail.com',
     name:'ryu',
